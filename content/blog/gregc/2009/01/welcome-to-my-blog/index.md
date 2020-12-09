@@ -1,6 +1,7 @@
 ---
 title: "Welcome To My Blog"
 date: "2009-01-29"
+author: gregc
 ---
 
 Hi everyone and welcome to my blog! This is actually my very first blog post ever – on any topic!

@@ -1,6 +1,7 @@
 ---
 title: "Data View Web Part, The Basics - Keep it Clean"
 date: "2009-05-28"
+author: laurar
 ---
 
 This was an article that I wrote on endusersharepoint.com

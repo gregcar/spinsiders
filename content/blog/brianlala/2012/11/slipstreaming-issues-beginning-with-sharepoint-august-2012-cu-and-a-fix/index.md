@@ -1,6 +1,7 @@
 ---
 title: "Slipstreaming issues beginning with SharePoint August 2012 CU (and a fix)"
 date: "2012-11-20"
+author: brianlala
 ---
 
 Ever since the release of the August 2012 SharePoint 2010 Cumulative Update (CU), I ([and several others](http://autospinstaller.codeplex.com/discussions/399778)) noticed that, during the SharePoint binary file installation portion of AutoSPInstaller, it would fail with a PatchApplicationFailure error in the SharePoint installation log, if we integrated Service Pack 1 + the August 2012 CU in the SP2010 install media. Since this did **not** happen with any prior CU up to and including June 2012, those of us affected basically thought we’d found a bug in the CU. Famous SharePoint admin dude Todd Klindt even included it on his [Bugs & Regressions](http://www.toddklindt.com/blog/Regressions/August2012CU.aspx) page.

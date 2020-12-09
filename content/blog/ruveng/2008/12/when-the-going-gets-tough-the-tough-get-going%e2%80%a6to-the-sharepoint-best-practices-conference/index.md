@@ -1,6 +1,7 @@
 ---
 title: "When the going gets tough, the tough get going…to the SharePoint Best Practices Conference"
 date: "2008-12-16"
+author: ruveng
 ---
 
 ![](images/bp_banner_180x150.jpg)I'm going to the Best Practices Conference in San Diego, and I went to the last one in Washington as well. It's true that I am a speaker, but I signed up to attend the last one before I knew I was going to speak. I just knew that I was going to learn a ton based on the speaker list, and I did. 

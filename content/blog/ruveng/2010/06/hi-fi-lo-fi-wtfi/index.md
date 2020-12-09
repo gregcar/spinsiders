@@ -1,6 +1,7 @@
 ---
 title: "Hi-Fi? Lo-Fi? WTFi?"
 date: "2010-06-04"
+author: ruveng
 ---
 
 Erik Swenson has published a post showing his [phenomenal collection of wireframes](http://erikswenson.blogspot.com/2010/06/sharepoint-2010-ia-wireframe-toolkit.html "Erik Swenson's Blog") for SharePoint 2010. I remember when he showed me his SharePoint 2007 wireframes in Montreal last year and being blown away.

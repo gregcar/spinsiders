@@ -1,6 +1,7 @@
 ---
 title: "List View Styles"
 date: "2009-05-14"
+author: laurar
 ---
 
 When creating a new view on a SharePoint list or library, there's this little section towards the bottom of the view settings, called **Style**, that looks like this:

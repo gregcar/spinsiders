@@ -1,6 +1,7 @@
 ---
 title: "The Category Page in a SharePoint Blog Site"
 date: "2009-02-10"
+author: laurar
 ---
 
 In this blog post, I’ll not only go over how to fix the category.aspx page when it breaks, but how to associate an image with each blog category, and have that image displayed each time you view that category’s page.

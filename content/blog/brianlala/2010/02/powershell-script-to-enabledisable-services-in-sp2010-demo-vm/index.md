@@ -1,6 +1,7 @@
 ---
 title: "Powershell script to enable/disable services in SP2010 Demo VM"
 date: "2010-02-03"
+author: brianlala
 ---
 
 If any of you have had the chance to play around with Microsoft's recent public release of the [Information Worker Demo VM](http://www.microsoft.com/downloads/details.aspx?FamilyID=0c51819b-3d40-435c-a103-a5481fe0a0d2&displaylang=en), you'll notice that **_a)_** it has pretty much everything thrown in in terms of the Office suite of server/client products and **_b)_** it's a hog! At idle, the VM will start to consume almost 10GB RAM (combined physical and virtual/paging) within minutes of booting up. For developers and sysadmins used to running (2 or 3) 32-bit MOSS2007 Virtual PCs concurrently on your laptop, the new resource requirements for SP2010 can be quite a shock. How can we trim and optimize the resources the demo VM uses? By turning off services we don't immediately need...

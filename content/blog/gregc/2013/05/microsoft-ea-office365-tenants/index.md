@@ -1,6 +1,7 @@
 ---
 title: "Microsoft EA & Office 365 Tenants"
 date: "2013-05-30"
+author: gregc
 ---
 
 Important little thing to know when dealing with larger companies in particular: Microsoft only allows one Office 365 tenant per Enterprise Agreement.

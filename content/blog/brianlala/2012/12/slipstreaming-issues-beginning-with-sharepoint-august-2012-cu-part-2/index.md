@@ -1,6 +1,7 @@
 ---
 title: "Slipstreaming issues beginning with SharePoint August 2012 CU (Part 2)"
 date: "2012-12-07"
+author: brianlala
 ---
 
 In my [last post](http://spinsiders.com/brianlala/2012/11/20/slipstreaming-issues-beginning-with-sharepoint-august-2012-cu-and-a-fix/), I described the installation errors that I experienced when attempting to do a slipstreamed install of SharePoint 2010 with SP1 + August 2012 CU, and a workaround that I’d implemented in [AutoSPInstaller](http://autospinstaller.codeplex.com/) to allow the script to proceed beyond the error. It seems however that I was a tad hasty… subsequent testing revealed that the errors were _not_ just benign & safely ignore-able – you’d basically be left with a half-patched SP2010 installation afterwards. This was evidenced on two fronts: the version info on certain files were still showing the SP1 build, and the fact that I was able to re-run the August 2012 CU after the supposed successful slipstreamed install and could see it was actually _doing stuff_ (instead of just quickly exiting with an “…already applied” type of message.

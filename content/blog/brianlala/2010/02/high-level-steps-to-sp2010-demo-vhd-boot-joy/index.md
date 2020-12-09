@@ -1,6 +1,7 @@
 ---
 title: "High-level steps to SP2010 Demo VHD boot joy"
 date: "2010-02-03"
+author: brianlala
 ---
 
 This is sure to raise more questions than it answers... but here goes: how I managed to get the downloadable [Information Worker Demo VM](http://www.microsoft.com/downloads/details.aspx?FamilyID=0c51819b-3d40-435c-a103-a5481fe0a0d2&displaylang=en) to boot straight from VHD (i.e. no host OS). _This assumes a fair level of comfort and proficiency in virtual hardware environments, specifically managing virtual hard disks, the Windows registry, commands, etc. Also note that incorrectly performing some of these steps could potentially render your original host OS unbootable, so beware!!_

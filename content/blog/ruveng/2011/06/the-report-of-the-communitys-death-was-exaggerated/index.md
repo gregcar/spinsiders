@@ -1,6 +1,7 @@
 ---
 title: "The report of the community's death was exaggerated"
 date: "2011-06-15"
+author: ruveng
 ---
 
 The title of this post paraphrases Mark Twain who wrote this when his obituary was published in the paper. Today, Mark Rackley (the SharePoint Hillbilly) wrote a post asking: [Is the SharePoint Community Past Its Prime?](http://geekswithblogs.net/SoYouKnow/archive/2011/06/14/is-the-sharepoint-community-past-its-prime.aspx "Is the SharePoint Community Past Its Prime?")

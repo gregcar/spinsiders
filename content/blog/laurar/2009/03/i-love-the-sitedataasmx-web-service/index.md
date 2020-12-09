@@ -1,6 +1,7 @@
 ---
 title: "I Love the SiteData.asmx Web Service"
 date: "2009-03-31"
+author: laurar
 ---
 
 > Twitter users, you can [Re-Tweet This Post](http://twitthis.com/twit?url=http://is.gd/pQ6U "Re-tweet").

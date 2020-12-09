@@ -1,6 +1,7 @@
 ---
 title: "In the trenches with Windows Phone 8"
 date: "2012-11-17"
+author: ruveng
 ---
 
 I'm writing this post on the plane, flying home from the SPC12 conference in Las Vegas. When I used "in the trenches" in the title, I mean that particular bit of hell we've all been in: Crammed between the window and a person whom I've never met who likes to order the smelliest sandwich on the cart. In this less than perfect state, I've just spent the past hour cleaning my email inbox using my phone because I just couldn't use my laptop properly with the seat in front of me leaning back.  So I thought I'd let you know how it went.

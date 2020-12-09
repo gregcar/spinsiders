@@ -1,6 +1,7 @@
 ---
 title: "Office 365 Pricing for Nonprofits Released"
 date: "2013-09-11"
+author: gregc
 ---
 
 ... well, kind of. We're still waiting on some Office 365 for Small Business Nonprofit pricing, but it shouldn't be too long. Complete details can be found [here](http://www.microsoft.com/about/corporatecitizenship/en-us/nonprofits/faq/). Here are the highlights (prices are in CAD):

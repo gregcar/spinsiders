@@ -1,6 +1,7 @@
 ---
 title: "CalSPUG Meeting - April 22, 2010"
 date: "2010-04-12"
+author: gregc
 ---
 
 Once again - a long time since I have posted.  Perhaps I should just end trying to post at a pre-defined frequency and aim for something a bit more natural?

@@ -1,6 +1,7 @@
 ---
 title: "The Happiest Place on Earth"
 date: "2011-10-10"
+author: ruveng
 ---
 
 (Thanks to [Marcy Keller](http://www.smugmug.com/gallery/8002079_F8NT99) for the JumpShot at Disney)

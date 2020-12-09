@@ -1,6 +1,7 @@
 ---
 title: "Using JQuery to \"Hide\" Empty Divs"
 date: "2009-12-07"
+author: gregc
 ---
 
 So, I thought it was about time for me to start blogging again.  So much for weekly.  I will shoot for monthly this time!

@@ -1,6 +1,7 @@
 ---
 title: "MindManager Version 8 Released Today"
 date: "2008-11-11"
+author: ruveng
 ---
 
 Those of you who know me, know that I consider [Mindjet's MindManager](http://www.mindjet.com "Mindjet Home") is the greatest invention since sliced cheese. I use it for almost everything that you could think of (and a few that you couldn't).

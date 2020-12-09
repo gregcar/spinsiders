@@ -1,6 +1,7 @@
 ---
 title: "Great Turn-Out at the Toronto SharePoint Camp"
 date: "2009-01-26"
+author: ruveng
 ---
 
 These types of events have often been very technically focused, so I wasn't sure how many people would turn out for my sessions on **_"Mind Mapping Tools for the Information Architect"_** and **_"Effective Requirements Gathering Workshops – How to organize and run them"_**. I was pleasantly surprised when my room filled up nicely (between 40 - 60 people at each session), with quite a few staying for both.

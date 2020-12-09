@@ -1,6 +1,7 @@
 ---
 title: "This is NOT your Daddy's SharePoint Conference"
 date: "2009-07-23"
+author: ruveng
 ---
 
 \[caption id="attachment\_87" align="aligncenter" width="500" caption="Ensuring SharePoint Success - Mentoring Workshop"\][![Ensuring SharePoint Success - Mentoring Workshop](images/sharepointsuccessworkshop.jpg)](http://www.innovative-e.com/pages/workshopspa.aspx)\[/caption\]

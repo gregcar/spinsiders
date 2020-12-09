@@ -1,0 +1,29 @@
+- id: ruveng
+  name: Ruven Gotz
+  path: /ruveng
+  bio: "Ruven Gotz is a Director with Avanade, Microsoft’s Global Partner. As a Microsoft SharePoint MVP with over 20 years of IT industry experience, Ruven has spent the past nine years delivering award-winning SharePoint solutions for a wide range of clients. Working as a Business Analyst and Information Architect, Ruven is able to apply his eclectic education and varied experience in Psychology, Computer Science, Economics, Software Development and Training to get to the heart of complex problems. Ruven is a great communicator who is able to discuss technology concepts in language that is relevant to his audience, whether they are from IT or business. He has become a leader in the use of visual tools to help his clients and team members achieve shared understanding of problems and goals and shared commitment towards implementing a successful solution. Ruven recently authored “Practical SharePoint 2010 Information Architecture” (Apress). Ruven lives in Toronto, Canada. On Tuesday nights in the summer, you’ll find him racing his 24’ sailboat ‘In the Groove’. (NOTE: Ideas and opinions on this blog are my own: I am not representing my  employer.)"
+  profilepicture: ../../content/assets/Ruven-2014-Branson.png
+  title: The Practical SharePoint Information Architect
+  description: Filling in the business side of the puzzle
+- id: gregc
+  name: Greg Carnie
+  path: /gregc
+  bio: "I am a SharePoint consultant (Business Analyst by title) with Ideaca Knowledge Services based in Toronto, Canada.  I have been actively working with SharePoint for three years now and have been specializing more in the developmental and architectural aspects of SharePoint.  In a previous life I worked both with SAP and Microsoft Exchange.  In my spare time (yes – I have figured out how to have a life outside of SharePoint – only took 3 years!!) I read, have started to get myself back into decent shape, and intend to spend a significant amount of time outside this summer."
+  profilepicture: 
+  title: Head in the Clouds
+  description: …covering cloud technologies such as Office 365, Azure, Amazon and, of course, SharePoint
+  twitter: "http://www.twitter.com/gregcarnie"
+- id: brianlala
+  name: Brian Lalancette
+  path: /brianlala
+  bio: "Hey fellow Sharepointers/Powershellers/infrastru… ah never mind. My name is Brian Lalancette, and I’m a Premier Field Engineer (PFE) at Microsoft Canada. This blog is a long time coming, and a realization of my New Year’s resolution for 2010 – to share some of the knowledge about SharePoint, server virtualization/infrastructure, and other tidbits I’ve picked up over my 18+ years in IT. Hope it can help some of you out, and always looking forward to hearing your thoughts & comments. All posts and info are provided without warranty, etc. etc. and I’m not responsible for blowing up your or my production servers, deleting all your data, or leaving coffee stains on your desk and crumbs in your keyboard. Cheers! Brian"
+  profilepicture: ../../content/assets/cropped-Brian-Headshot.jpg
+  title: About Lala Land
+  description: 
+- id: laurar
+  name: Laura Rogers
+  path: /laurar
+  bio: "I’m currently a Senior SharePoint Consultant at SharePoint 911.  I formerly worked in SharePoint in the healthcare industry for several years. I have ten years of experience with Microsoft’s messaging and collaboration systems. This includes five years in SharePoint implementation, training, and customization. I’ve been a MCSE since 1999, with my most recent certifications being MCSE 2003 + Messaging, MCTS in MOSS and MCTS in WSS 3.0 Configuration. I also wrote chapter 29 (about web parts) in the Microsoft Office SharePoint Server 2007 Administrator’s Companion."
+  profilepicture: ../../content/assets/laurar.jpg
+  title: Laura Rogers
+  description: Just another SPInsiders Sites site

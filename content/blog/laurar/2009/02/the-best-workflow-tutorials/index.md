@@ -1,6 +1,7 @@
 ---
 title: "The Best Workflow Tutorials"
 date: "2009-02-11"
+author: laurar
 ---
 
 Just thought I'd let everyone know where I learned everything I know about workflows.  This site is friggin awesome, and the tutorials are very detailed.  You can tell that this guy, Stephen, put a lot of work into this.

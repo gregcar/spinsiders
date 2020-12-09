@@ -1,6 +1,7 @@
 ---
 title: "Fun With Announcements - Part 2"
 date: "2009-03-04"
+author: laurar
 ---
 
 Today's article that I wrote for the End User SharePoint site is called:

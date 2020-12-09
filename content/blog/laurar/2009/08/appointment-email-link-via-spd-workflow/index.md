@@ -1,6 +1,7 @@
 ---
 title: "Appointment email Link, via SPD workflow"
 date: "2009-08-17"
+author: laurar
 ---
 
 Last week on Stump the Panel, I put up a solution to the following question:

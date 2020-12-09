@@ -1,6 +1,7 @@
 ---
 title: "A New Chapter Begins..."
 date: "2012-07-23"
+author: ruveng
 ---
 
 [![](images/grass-greener-fence-150x150.jpg "Grass and Fence")](http://spinsiders.com/ruveng/files/2012/07/grass-greener-fence.jpg)Hi friends and followers, today I want to tell you about a new chapter in my life:

@@ -1,6 +1,7 @@
 ---
 title: "What I Do."
 date: "2014-07-30"
+author: brianlala
 ---
 
 Over the past few weeks and months I’ve been contemplating putting together a post that describes what I do – partly as a reference to others (to answer that oft-asked question), partly to inventory my own activities and interests, and in no small part to get myself thinking about what lies ahead. I also expect this will be something that gets updated periodically and thus won’t be a snapshot of a particular time in my career (I hope, anyhow).

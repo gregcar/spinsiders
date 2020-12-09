@@ -1,6 +1,7 @@
 ---
 title: "New Add-SPProfileSyncConnection cmdlet seems to ignore NetBIOSDomainNamesEnabled property?"
 date: "2011-09-08"
+author: brianlala
 ---
 
 With the release of Service Pack 1 for SharePoint 2010 came a cmdlet called Add-SPProfileSyncConnection which finally allowed the OOB creation of a User Profile Sync connection with Powershell. Prior to this, one would either have to resort to manual creation of a User Profile Sync connection or write up some fairly eloquent custom Powershell to do the job.

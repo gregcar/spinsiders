@@ -1,6 +1,7 @@
 ---
 title: "The site collection could not be restored...sufficient free space"
 date: "2011-08-16"
+author: gregc
 ---
 
 Recently I came across the dreaded error below while restoring a production backup into a development / test environment using stsadm.exe -o restore.

@@ -1,6 +1,7 @@
 ---
 title: "Who has time for Enterprise Social?"
 date: "2014-09-23"
+author: ruveng
 ---
 
 People say to me: How do you find time for yet another source of information? Keeping up with the enterprise social stream (in my case, Yammer) on top of email and Lync messages, not to mention personal social media just seems like too much. It's like drinking from the fire-hose non-stop.

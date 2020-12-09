@@ -1,6 +1,7 @@
 ---
 title: "On-The-Go Series Completed"
 date: "2009-05-09"
+author: laurar
 ---
 
 Lori Gowin and I drove to Atlanta for SharePoint Saturday on April 18th.  We simply turned the camera on, and started talking.  For the past few weeks, I've been uploading one new file each night.  Now, the whole series has been uploaded for your viewing pleasure.

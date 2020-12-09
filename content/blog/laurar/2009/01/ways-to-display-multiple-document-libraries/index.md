@@ -1,6 +1,7 @@
 ---
 title: "Ways to Display Multiple Document Libraries"
 date: "2009-01-29"
+author: laurar
 ---
 
 [](http://spinsiders.com/laurar/files/2009/03/newdatasource.jpg)

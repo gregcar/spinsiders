@@ -1,6 +1,7 @@
 ---
 title: "SPTechCon Recap (and download links)"
 date: "2010-10-24"
+author: ruveng
 ---
 
 I’m back home after a wonderful and exhausting SharePoint Technical Conference.

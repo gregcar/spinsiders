@@ -1,6 +1,7 @@
 ---
 title: "BPC09 Recap Part 1"
 date: "2009-09-04"
+author: laurar
 ---
 
 Last week was the [Best Practices Conference](http://www.bestpracticesconference.com) in Washington, DC.  This conference used to be called "SharePoint Best Practices", but this time they added in a SQL track, so it's just "Best Practices" now.  The concept behind this one is that you'll learn _why_ to do certain best practices, as opposed to the _how_.

@@ -1,6 +1,7 @@
 ---
 title: "Moving to Office 365"
 date: "2013-03-06"
+author: gregc
 ---
 
 With the full GA release of [Office 365 Wave "15"](http://www.microsoft.com/en-us/news/Press/2013/Feb13/02-27OfficeCommercialGAPR.aspx), I thought it was about time I started to really see what I could do with this platform.  I have been an avid SkyDrive and Outlook.com user for my personal email for sometime now, so why not see what else I can do with the cloud & Office 365 with my little experimental company.  I should also mentioned that my little company is a Microsoft registered partner and I have enrolled in the [Cloud Essentials](https://mspartner.microsoft.com/en/us/pages/solutions/access-cloud-partner-program-benefits.aspx) program to make this endeavour a bit more cost effective.

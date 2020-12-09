@@ -1,6 +1,7 @@
 ---
 title: "Installing SharePoint 2016 Release Candidate Directly (i.e. Without Manual Patching)"
 date: "2016-01-26"
+author: brianlala
 ---
 
 When SharePoint 2016's Release Candidate was [announced](https://blogs.office.com/2016/01/20/sharepoint-server-2016-and-project-server-2016-release-candidate-available/), you may have wondered why (and at the same time been a little sad that) there was no monolithic ISO or executable made available that would allow you to install straight to RC without first having to install the previous public release (Beta 2) first. Well, it turns out there's a fairly simple way to accomplish a direct-to-RC installation, and it uses a tried & true methodology - slipstreaming!

@@ -1,6 +1,7 @@
 ---
 title: "CalSPUG Meeting - November 17, 2011"
 date: "2011-11-08"
+author: gregc
 ---
 
 Another month means another [CalSPUG](http://www.calspug.org "CalSPUG") meeting! (Web site should be up soon... sorry for the dead link.)

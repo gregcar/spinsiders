@@ -1,6 +1,7 @@
 ---
 title: "News on the Office Store Front: Subscription Apps!"
 date: "2013-10-02"
+author: gregc
 ---
 
 This is really big news on the Office Store front, at least in my humble opinion, and straight from the Office News blog: [http://blogs.office.com/b/office-news/archive/2013/10/01/office-store-investments-bring-new-opportunities-to-developers.aspx](http://blogs.office.com/b/office-news/archive/2013/10/01/office-store-investments-bring-new-opportunities-to-developers.aspx).

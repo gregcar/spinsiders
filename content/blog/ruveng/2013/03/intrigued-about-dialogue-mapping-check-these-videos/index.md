@@ -1,6 +1,7 @@
 ---
 title: "Intrigued about Dialogue Mapping? Check these videos"
 date: "2013-03-13"
+author: ruveng
 ---
 
 People who have seen me speak, or read my blog before know how much emphasis I place on visual tools for reaching shared understanding. The evolution of my practice with visual tools, from mind mapping to Dialogue Mapping was prompted by Paul Culmsee.

@@ -1,6 +1,7 @@
 ---
 title: "Best Practice: Attend the Best Practices Conference"
 date: "2010-08-04"
+author: ruveng
 ---
 
 Sometimes, when I am a few weeks away from speaking at a conference, a friend in the town where I'm going may write to me to say: What times are you speaking? Maybe we can meet up right after your session. I have to let my friend down gently and tell them: Sorry, I'm not just there to speak, but to learn as well.

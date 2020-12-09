@@ -1,6 +1,7 @@
 ---
 title: "List of ALL web parts in MOSS 2007 and WSS 3.0"
 date: "2009-05-28"
+author: laurar
 ---
 
 When I was putting together the presentation that I do, called "Making the most of the out-of-box Web Parts", I created a comprehensive list of all web parts.  I wrote the chapter about web parts in Bill English's _[MOSS Administrator's Companion](http://admincompanion.mindsharp.com)_, so I already had the list, but I went through it again and added information about where each web part was available, such as MOSS only, etc.  The sections in this list mainly just represent the groupings that the web parts are in by default in the gallery.  Here's the list: (oh, and if you're interested, I'm doing the associated presentation at [www.sptechcon.com](http://www.sptechcon.com) in June)

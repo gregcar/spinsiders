@@ -1,6 +1,7 @@
 ---
 title: "Pre-Populating SharePoint Farm Details for ULSViewer"
 date: "2014-08-25"
+author: brianlala
 ---
 
 The [new ULSViewer](http://blogs.technet.com/b/wbaer/archive/2014/08/22/uls-viewing-like-a-boss-uls-viewer-is-now-available.aspx) for SharePoint introduces the capability to monitor _all_ the ULS logs in your SharePoint farm at once, in real time. While this is a fantastic enhancement to an already near-perfect piece of software, I found one tiny little pain point with it. When configuring ULSViewer to monitor an entire farm, you need to manually specify all the servers in your farm as well as the common ULS log path.

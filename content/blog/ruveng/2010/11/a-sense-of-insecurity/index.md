@@ -1,6 +1,7 @@
 ---
 title: "A Sense of Insecurity"
 date: "2010-11-02"
+author: ruveng
 ---
 
 [Scott Jamison posted](http://bit.ly/asdLmW) a blog follow-up to a session I recently presented at SPTechCon in Boston. I explained how you can drop a document into a document library, at which point the content organizer takes over and moves the document to new location in that library, that site, or even in another site collection.

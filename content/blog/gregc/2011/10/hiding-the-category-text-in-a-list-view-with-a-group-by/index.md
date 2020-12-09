@@ -1,6 +1,7 @@
 ---
 title: "Hiding the 'Category' Text in a List View with a Group By"
 date: "2011-10-03"
+author: gregc
 ---
 
 I recently had a request of me to hide the 'Category:' text on a List View web part in a MOSS 2007 farm.  As I have now had this request a few times and each time have to go figure out how to do it again, I thought that meant it was time for a quick blog post!  I found the original source [here](http://edinkapic.blogspot.com/2008/06/hiding-list-view-group-headers.html "here").  It's a great write up, but there are a few enhancements mentioned in the comments that were never incorporated into the script code of the article.  So here is the code with the changes incorporated:

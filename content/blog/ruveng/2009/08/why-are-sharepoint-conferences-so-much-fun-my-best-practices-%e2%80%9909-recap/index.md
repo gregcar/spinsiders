@@ -1,6 +1,7 @@
 ---
 title: "Why are SharePoint conferences so much fun? (My Best Practices ’09 recap)"
 date: "2009-08-30"
+author: ruveng
 ---
 
 I just got back from the Best Practices 2009 conference in Washington D.C. and I was sitting here asking myself why SharePoint events are so much more fun than just about any other IT related event I've attended over the years. I think it may come down to "collaboration about collaboration" that makes the difference.

@@ -1,6 +1,7 @@
 ---
 title: "Free SharePoint Conference in Toronto"
 date: "2009-06-26"
+author: ruveng
 ---
 
 [![](images/spsaturdaytoronto-300x112.jpg)](http://spinsiders.com/ruveng/files/2009/06/spsaturdaytoronto.jpg)

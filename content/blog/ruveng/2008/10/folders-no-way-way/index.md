@@ -1,6 +1,7 @@
 ---
 title: "Folders? No Way! Way!!!"
 date: "2008-10-17"
+author: ruveng
 ---
 
 Today, Joris Poelmans (of [JOPX on SharePoint](http://jopx.blogspot.com/ "JOPX on SharePoint")) wrote a post [against the use of folders](http://jopx.blogspot.com/2008/10/folders-in-sharepoint-document.html "No folders in SharePoint") in SharePoint. Now don’t get me wrong, I too spend a good deal of my time explaining to customers why folders should be avoided in SharePoint. As Joris says: “NOOOOO .... metadata is the way to go in SharePoint”.

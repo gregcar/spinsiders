@@ -1,6 +1,7 @@
 ---
 title: "Populate My Sites with staff pictures when you go-live"
 date: "2008-10-07"
+author: ruveng
 ---
 
 SharePoint’s people search is a SharePoint feature that many organizations want to take advantage of. (I’ve heard stories of people sitting for weeks within 25 feet of a new co-worker, and even having e-mail conversations with them without realizing who they are.)

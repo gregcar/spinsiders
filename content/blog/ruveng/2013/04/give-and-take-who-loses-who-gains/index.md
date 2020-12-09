@@ -1,6 +1,7 @@
 ---
 title: "Give and Take: Who loses, who gains?"
 date: "2013-04-07"
+author: ruveng
 ---
 
 [![Girl Blowing on a Dandelion --- Image by © Royalty-Free/Corbis](images/Dandilion-seeds.jpg)](http://spinsiders.com/ruveng/files/2013/04/Dandilion-seeds.jpg)I met a friend for a drink the other day, and we were discussing how we share our presentation materials. I said “I just send people my whole presentation – or make it available on Slideshare.org.” I do this because they can see the animations and read the speakers notes (of which I have many, because my slides are text-light, and more conceptual in nature).

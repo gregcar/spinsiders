@@ -1,6 +1,7 @@
 ---
 title: "Controlling Database Growth in SharePoint 2007"
 date: "2011-10-22"
+author: gregc
 ---
 
 One of the many problems when developing for SharePoint 2007 is database growth. This can be especially troublesome when your production environment has caching and auditing enabled. Here are some tricks to dealing with the growth.

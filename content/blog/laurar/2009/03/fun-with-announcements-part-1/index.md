@@ -1,6 +1,7 @@
 ---
 title: "Fun with Announcements - Part 1"
 date: "2009-03-03"
+author: laurar
 ---
 
 There is a new series that I've written, about fun things that you can do with an announcements list in SharePoint.

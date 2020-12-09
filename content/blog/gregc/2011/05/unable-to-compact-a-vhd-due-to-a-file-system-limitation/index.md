@@ -1,6 +1,7 @@
 ---
 title: "Unable to Compact a VHD Due to a File System Limitation"
 date: "2011-05-05"
+author: gregc
 ---
 
 While trying to compact a vhd that had been (unbeknownst to me) generating huge quantities of log files I recently ran across the rather strange "Unable to Compact a VHD Due to a File System Limitation" error:

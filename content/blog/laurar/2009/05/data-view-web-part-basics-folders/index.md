@@ -1,6 +1,7 @@
 ---
 title: "Data view web part basics - Folders!"
 date: "2009-05-19"
+author: laurar
 ---
 
 I wrote an article, and did a screencast on Endusersharepoint.com

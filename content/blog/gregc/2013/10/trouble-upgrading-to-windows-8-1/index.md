@@ -1,6 +1,7 @@
 ---
 title: "Trouble Upgrading to Windows 8.1?"
 date: "2013-10-22"
+author: gregc
 ---
 
 I know I sure had a lot of trouble upgrading! I did all the updates like I was supposed to and the download would just not show up in the store! Very frustrating experience. So I did was all good IT folks to - Googled it!

@@ -1,6 +1,7 @@
 ---
 title: "MySPC Calendar Syncing"
 date: "2012-11-09"
+author: gregc
 ---
 
 Now that SharePoint Conference 2012 is just a couple days away, I am sure everyone is busy selecting all the sessions they are wanting to attend via [MySPC](http://myspc.mssharepointconference.com/).  As I was admiring my completed calendar, I began to wonder: How I am I going to get this on my phone.  I attempted to import it into my corporate Outlook but that was futile as my iTunes is not on my company laptop.  Back to the drawing board...  What about [outlook.com](http://outlook.com)???  Eureka!  I can add a public calendar to my [Outlook.com](http://outlook.com)!  \*Update: Gmail instructions follow Outlook.com instructions.

@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Best Practices Conference"
 date: "2008-09-24"
+author: ruveng
 ---
 
 Last week I attended the [SharePoint Best Practices conference](http://www.sharepointbestpractices.com/ "Link to Best Practices Conference Site") in Washington DC. I learned a lot and I had a great time. This was the first Best Practices (BP) conference put on by Bill English and Ben Curry of [MindSharp](http://www.mindsharp.com/ "Mindsharp's web site"). The BP conference was a great follow on to their recently published book: [SharePoint Best Practices](http://www.amazon.com/Microsoft-Office-SharePoint-Server-Practices/dp/0735625387/ref=pd_bbs_1?ie=UTF8&s=books&qid=1222224264&sr=8-1 "Best Practices book on Amazon"). I found the conference to be well organized and well run. I heard that there were a couple of glitches, but none were obvious to me. If you can get yourself down to the next one in California (in February, I think), I would highly recommend it.

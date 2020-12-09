@@ -1,6 +1,7 @@
 ---
 title: "Useful SharePoint 2010 KB Articles"
 date: "2012-09-10"
+author: gregc
 ---
 
 This will be a collection of articles or tools I find useful when it comes to potential deployment issues in a SharePoint 2010 environment. I'll continually update it as I find new things!

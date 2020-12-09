@@ -1,6 +1,7 @@
 ---
 title: "Best Practices for Microsoft Teams Descriptions (or, don't truncate th..."
 date: "2018-09-07"
+author: brianlala
 ---
 
 As a Microsoft employee I've been "dogfooding" our new chat-based collaboration hub (Microsoft Teams) for a while now and pretty much enjoying the experience throughout. In the interest of knowledge sharing and wanting to be generally useful, I'd like to raise a usability/discoverability best practice that just materialized for me.

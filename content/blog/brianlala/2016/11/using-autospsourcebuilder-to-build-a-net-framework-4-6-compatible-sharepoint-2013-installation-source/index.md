@@ -1,6 +1,7 @@
 ---
 title: "Using AutoSPSourceBuilder To Build a .NET Framework 4.6 Compatible SharePoint 2013 Installation Source"
 date: "2016-11-02"
+author: brianlala
 ---
 
 Several months back, some folks started reporting an error when attempting to install SharePoint 2013 on certain Windows servers - specifically, ones that already had the .Net Framework 4.6 installed. The error simply states: "Setup is unable to proceed due to the following error(s): This product requires Microsoft .Net Framework 4.5" - well, 4.6 is surely newer, shinier and better than 4.5, so what gives?

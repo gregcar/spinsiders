@@ -1,14 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from 'gatsby-image';
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const {
+    name,
+    bio,
+    profilepicture,
+    twitter,
+  } = data.markdownRemark.frontmatter.author;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -31,7 +37,23 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          <Bio />
+          <div className="bio">
+            <Img fluid={profilepicture.childImageSharp.fluid}
+                alt={name}
+                className="bio-avatar"
+                imgStyle={{
+                  borderRadius: `50%`,
+                }}
+              />
+            <p>
+                Written by <strong>{name}</strong> {bio || null}
+            </p>
+            <p>
+                <a href={twitter}>
+                  You should follow them on Twitter
+                </a>
+              </p>
+          </div>
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -85,6 +107,17 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        author {
+          id
+          bio
+          profilepicture {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

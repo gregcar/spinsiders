@@ -1,6 +1,7 @@
 ---
 title: "\"For Me\" Web part in MOSS"
 date: "2009-07-23"
+author: laurar
 ---
 
 Cool stuff... data view web parts again!  So, here's an idea for a main page for a SharePoint intranet.  This is using the data view web part (in Sharepoint Designer) and a web service.

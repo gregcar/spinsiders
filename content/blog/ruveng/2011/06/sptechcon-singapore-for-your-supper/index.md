@@ -1,6 +1,7 @@
 ---
 title: "SPTechCon: Sing(apore) for your supper"
 date: "2011-06-05"
+author: ruveng
 ---
 
 \[caption id="attachment\_55" align="alignleft" width="300" caption="Waiting in front of La Famiglia Giorgio"\][![](images/251609_10150269175006282_730516281_9392098_5917292_n-300x223.jpg "Waiting in front of La Famiglia Giorgio")](http://spinsiders.com/ruveng/files/2011/06/251609_10150269175006282_730516281_9392098_5917292_n.jpg)\[/caption\]

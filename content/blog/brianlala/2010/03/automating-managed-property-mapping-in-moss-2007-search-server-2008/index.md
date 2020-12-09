@@ -1,6 +1,7 @@
 ---
 title: "Automating Managed Property Mapping in MOSS 2007 / Search Server 2008"
 date: "2010-03-12"
+author: brianlala
 ---
 
 I was recently asked to customize the Advanced Search experience for a Search Server Express 2008 customer. Remember that MSSE is basically WSS 3.0 + the search components from MOSS 2007 (remember _that_ ancient product?). Anyhow this involved enabling the selection of a number of custom fields in the 'property restrictions' drop-down. Part of this overall process is mapping Managed Properties to Crawled Properties within the Search Administration area of the shared services provider. I more or less assumed that this would be a GUI-only, manual process for the 20+ properties I was dealing with. However I was faced with applying the changes to at least 4 different environments - not a lot of fun, and likely prone to error by tired eyes and fingers. I wasn't (and still am not) aware of a way to do this using STSADM.exe, and even scoured the help for STSADM once again in case I'd missed something - no luck.

@@ -1,6 +1,7 @@
 ---
 title: "Alerts Based on Views"
 date: "2009-02-11"
+author: laurar
 ---
 
 This is a "SharePoint Tip of the week" email that I sent out to our site administrators in November of 2007.  Thought I'd share it...

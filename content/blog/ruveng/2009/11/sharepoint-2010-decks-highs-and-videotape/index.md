@@ -1,6 +1,7 @@
 ---
 title: "SharePoint 2010 - Decks, Highs and Videotape"
 date: "2009-11-03"
+author: ruveng
 ---
 
 It's been a couple of weeks since the SharePoint Conference in Las Vegas wrapped up and I've had some time to recover from the #ShareFlu and think a bit about what I saw and heard.

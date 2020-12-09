@@ -1,6 +1,7 @@
 ---
 title: "Using PowerShell to Automate SQL 2008 R2 SP1 Slipstreaming"
 date: "2012-06-26"
+author: brianlala
 ---
 
 Like most of you SharePoint folks, I find myself installing SQL Server quite frequently (since SharePoint has an ever-so-slight dependency on it). However I also like to have the latest & greatest service pack in my environments, and currently this means SP1 for SQL 2008 R2 (yeah I know SQL 2012 is out, but most of my clients are a bit shy with such ‘new’ releases). Since I do extreme slipstreaming of SP1 + CUs for SharePoint as described (for example) in [Todd Klindt](http://www.toddklindt.com/)’s [excellent blog post](http://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=295), I looked for a way to do this with my SQL Server 2008 R2 binaries.

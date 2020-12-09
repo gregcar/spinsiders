@@ -1,6 +1,7 @@
 ---
 title: "\"I Need To...\" Display a List of Documents"
 date: "2009-03-16"
+author: laurar
 ---
 
 In this article, I'll describe how to use the out-of-box "I Need To..." web part to display a dynamic list of documents in a document library.

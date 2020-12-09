@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Best Practices Conference"
 date: "2009-02-01"
+author: laurar
 ---
 
 [![](images/bp_hor_banner_revise.jpg)](http://www.sharepointbestpractices.com)

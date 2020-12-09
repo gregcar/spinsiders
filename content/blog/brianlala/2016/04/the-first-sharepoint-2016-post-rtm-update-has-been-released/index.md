@@ -1,6 +1,7 @@
 ---
 title: "The First SharePoint 2016 Post-RTM Update Has Been Released"
 date: "2016-04-12"
+author: brianlala
 ---
 
 SharePoint 2016 is seeing its first post-go-live update - [KB2920721](http://support.microsoft.com/kb/2920721) - available for download here: [https://www.microsoft.com/en-us/download/details.aspx?id=51701](https://www.microsoft.com/en-us/download/details.aspx?id=51701). You may notice that it doesn't follow the typical CU naming convention of _ubersrv\*_ - that's because it's not a cumulative update, but rather just a specific update that contains a single patch _sts-x-none.msp_.

@@ -1,6 +1,7 @@
 ---
 title: "Enterprise Search in SharePoint 2013"
 date: "2014-01-29"
+author: gregc
 ---
 
 As I have been increasingly working with Enterprise Search in SharePoint 2013, I have found myself continuously re-researching specific topics. Thus, I have decided to publish this post and keep ot up to date with search content and configuration selfishly for my own reference, but if some else finds it useful - yayy! :)
@@ -21,6 +22,6 @@ As I have been increasingly working with Enterprise Search in SharePoint 2013, I
 
 **SharePoint 2013 Search Guidance** - [http://planningservices.partners.extranet.microsoft.com/en/SDPS/SAPSDocuments/SharePoint%202013%20Search%20Guidance.docx](http://planningservices.partners.extranet.microsoft.com/en/SDPS/SAPSDocuments/SharePoint%202013%20Search%20Guidance.docx)
 
-**Building Search Queries in SharePoint 2013** - [http://msdn.microsoft.com/en-us/library/jj163973(v=office.15).aspx](http://msdn.microsoft.com/en-us/library/jj163973(v=office.15).aspx)
+**Building Search Queries in SharePoint 2013** - [http://msdn.microsoft.com/en-us/library/jj163973(v=office.15).aspx](<http://msdn.microsoft.com/en-us/library/jj163973(v=office.15).aspx>)
 
 I'll keep updating this post as I find more useful information!

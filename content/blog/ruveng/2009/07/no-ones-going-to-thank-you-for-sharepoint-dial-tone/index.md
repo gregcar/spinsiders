@@ -1,6 +1,7 @@
 ---
 title: "No one's going to thank you for SharePoint Dial-Tone"
 date: "2009-07-02"
+author: ruveng
 ---
 
 **...yes, this is about governance**

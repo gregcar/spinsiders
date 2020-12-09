@@ -1,6 +1,7 @@
 ---
 title: "Obtaining a List's Views"
 date: "2009-08-18"
+author: laurar
 ---
 
 This is another post of a solution related to Microsoft's SharePoint [Employee Training template](http://www.microsoft.com/downloads/details.aspx?FamilyId=B5206277-550C-44DA-A2D5-D7E32E3B6B8F&displaylang=en), but this solution can be used on any list on your site.  Here's the story...

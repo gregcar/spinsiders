@@ -1,6 +1,7 @@
 ---
 title: "Using MindManager for IBIS Dialogue Mapping"
 date: "2012-12-28"
+author: ruveng
 ---
 
 If you don't know what Dialogue Mapping is, you have a bit of reading to do. I'd recommend [Paul Culmsee's excellent series of blog posts](http://www.cleverworkarounds.com/2009/09/10/the-practice-of-dialogue-mapping-part-1/) on the topic. Or, go back to the originator, [Jeff Conklin and his Cognexus Institute](http://www.cognexus.org/id41.htm). But, if you have been using or learning about Dialogue Mapping, you'll know that the standard tool out there for doing it is [Compendium](http://compendium.open.ac.uk/institute/download/download.htm), available for free from the Compendium Institute. Compendium is the tool that everyone uses when they learn to do DM, as did I. However, when I was learning DM, I was already an accomplished user of [MindManager](http://www.mindjet.com/products/mindmanager?lang=en), and there are a number of things that I like about it that are different from Compendium. One of the most important is being able to quickly and efficiently expand and collapse entire subsections of the tree without using transclusion (a DM term).

@@ -1,6 +1,7 @@
 ---
 title: "Fun With Announcements - Part 4"
 date: "2009-03-10"
+author: laurar
 ---
 
 And here is the last of my four part series on "Fun with Announcements"

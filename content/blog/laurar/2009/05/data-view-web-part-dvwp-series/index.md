@@ -1,6 +1,7 @@
 ---
 title: "Data View Web Part (DVWP) Series"
 date: "2009-05-12"
+author: laurar
 ---
 
 Good afternoon!

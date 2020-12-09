@@ -1,6 +1,7 @@
 ---
 title: "Who has forwarding enabled in their Exchange Online mailbox??"
 date: "2013-06-18"
+author: gregc
 ---
 
 How do I know, without looking at the properties of every Exchange Online mailbox, which users have setup mail forwarding on their mailbox?  That is a very good question.  If you Google around you'll find lots of interesting answers, particularly around using LDAP queries to identify those mailboxes - but how do you do that in Exchange Online???  PowerShell is the answer!

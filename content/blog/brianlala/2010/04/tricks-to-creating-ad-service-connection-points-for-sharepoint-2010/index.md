@@ -1,6 +1,7 @@
 ---
 title: "(Tricks For Successfully) Creating AD Service Connection Points for SharePoint 2010"
 date: "2010-04-22"
+author: brianlala
 ---
 
 A few days ago Jie Li [posted instructions](http://blogs.msdn.com/opal/archive/2010/04/18/track-sharepoint-2010-installations-by-service-connection-point-ad-marker.aspx) on how to track SharePoint 2010 installations in an organization by using AD Service Connection points. This sounded really promising, as it could (for example) allow admins to track 'rogue' SharePoint installs, or at a minimum just be able to quickly determine where SharePoint's been installed.

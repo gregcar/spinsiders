@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Trip Recap"
 date: "2009-07-05"
+author: laurar
 ---
 
 Finally writing my recap of all the fun last week.  What a trip. Uh, oh, I mean.... "Wow, I learned a lot!".

@@ -1,6 +1,7 @@
 ---
 title: "Getting More Storage Bang For Your Azure IaaS Buck"
 date: "2016-06-10"
+author: brianlala
 ---
 
 As someone who's been running local Virtual Machines on a beefed-up laptop for several years now, I've found the strategy becoming more cumbersome and challenging as the demands of my main platform of choice (SharePoint) increase with regard to recommended specs. In fact, spec requirements are the main factor that have personally kept me from making the leap to a lighter, less-powerful Surface or similar device - devices which simply don't yet have the horsepower (mainly in the RAM department) to allow me to build/run/test a local SharePoint 201x farm. So at the moment, my laptop (with 2 SSDs, 32 GB RAM, Core i7) is proving pretty difficult to part ways with. It actually out-specs many of my customers' SharePoint VMs... Having said that, with the push to Azure and the ubiquitous cloud model in general, I'm slowly working my way towards the ultimate goal of eventually doing away with the ol' boat anchor of a laptop and running all my stuff in the cloud.

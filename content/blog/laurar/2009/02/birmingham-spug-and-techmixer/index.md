@@ -1,6 +1,7 @@
 ---
 title: "Birmingham SPUG and TechMixer"
 date: "2009-02-17"
+author: laurar
 ---
 
 For my neighbors in Alabama, here's some information about SharePoint stuff going on in our neck of the woods:

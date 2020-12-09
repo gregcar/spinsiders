@@ -1,6 +1,7 @@
 ---
 title: "AutoSPSourceBuilder heads to the PowerShell Gallery!"
 date: "2019-02-06"
+author: brianlala
 ---
 
 File under "why didn't I do this years ago??"

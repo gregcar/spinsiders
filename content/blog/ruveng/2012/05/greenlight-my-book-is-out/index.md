@@ -1,6 +1,7 @@
 ---
 title: "Greenlight! My book is out."
 date: "2012-05-03"
+author: ruveng
 ---
 
 **Update 2: People looking to download the files mentioned in the book can find them here: [http://bit.ly/sps-sample-files](http://bit.ly/sps-sample-files "Sample files from book")**

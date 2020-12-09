@@ -1,6 +1,7 @@
 ---
 title: "SP Tech Con - Get $100 off!"
 date: "2009-04-16"
+author: laurar
 ---
 
 When you register for the SharePoint Technical Conference (SPtechcon) in Boston, get $100 off because you know me. Use the promotional code: **WONDERLAURA**

@@ -1,6 +1,7 @@
 ---
 title: "Access-Ability? Waiting for insight at SPC12"
 date: "2012-11-10"
+author: ruveng
 ---
 
 My history with building business solutions goes way back to MS-Access 1.0 ("Cirrus"). Although it was meant to be a PowerUser tool, I found that I could employ it to build powerful (but not large-scale) business solutions relatively inexpensively. I made my living by teaching Access Developer courses, and using that exposure to get contracts delivering solutions. I loved Access, especially as it progressed through ever more powerful versions.

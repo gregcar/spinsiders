@@ -1,6 +1,7 @@
 ---
 title: "Powershell-based SP2010 install fails to create Version registry value?"
 date: "2010-07-20"
+author: brianlala
 ---
 
  

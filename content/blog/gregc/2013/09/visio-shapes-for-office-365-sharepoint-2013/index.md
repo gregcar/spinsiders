@@ -1,6 +1,7 @@
 ---
 title: "Visio Shapes for Office 365 / SharePoint 2013"
 date: "2013-09-11"
+author: gregc
 ---
 
 This little things are pretty useful for diagramming out Office 365 & SharePoint 2013 environments: [http://www.microsoft.com/en-us/download/details.aspx?id=35772](http://www.microsoft.com/en-us/download/details.aspx?id=35772)

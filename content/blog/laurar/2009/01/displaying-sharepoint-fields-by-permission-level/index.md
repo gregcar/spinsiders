@@ -1,6 +1,7 @@
 ---
 title: "Displaying SharePoint Fields by Permission Level"
 date: "2009-01-24"
+author: laurar
 ---
 
 [](http://spinsiders.com/laurar/files/2009/01/croppercapture3.jpg)There are situations where certain fields in lists or libraries need to be hidden or displayed according to the permission level of the logged in user.  Since there is really no out-of-box way to assign permissions to fields, here's a way to do it using conditional formatting in SharePoint Designer.  This is my favorite SP Designer trick, that I discovered a few months ago.

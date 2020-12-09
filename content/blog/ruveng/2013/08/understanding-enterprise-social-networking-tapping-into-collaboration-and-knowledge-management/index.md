@@ -1,6 +1,7 @@
 ---
 title: "Understanding Enterprise Social Networking: Tapping into Collaboration and Knowledge Management"
 date: "2013-08-07"
+author: ruveng
 ---
 
 **_Enterprise social networking is not about "Facebook for the enterprise" and it's not about using Twitter and Facebook for communicating with your customers. What it is about is enhancing your knowledge management and collaboration solutions by giving everyone access to the information inside people's heads, no matter where in the world they sit or which department they belong to._**

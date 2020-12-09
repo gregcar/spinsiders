@@ -1,6 +1,7 @@
 ---
 title: "BPC Recap Part 2 + News"
 date: "2009-09-08"
+author: laurar
 ---
 
 This is continued from [Part 1](http://spinsiders.com/laurar/2009/09/03/bpc09-recap-part-1/).

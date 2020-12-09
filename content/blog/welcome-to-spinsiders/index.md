@@ -1,6 +1,7 @@
 ---
 title: "Welcome to SPInsiders"
 date: "2011-05-29"
+author: gregc
 ---
 
 This blog site was started in September 2008 by [Ruven Gotz](http://spinsiders.com/ruveng "Ruven's blog") and [Greg Carnie](http://spinsiders.com/gregc), two members of the Portals and Collaboration team at [Ideaca](http://www.ideaca.com "Ideaca's web site")**\*** in Toronto.  Greg has since transferred from Ideaca's Toronto office and taken up residence at their Calgary office, and Ruven now works at [Navantis](http://www.navantis.com "Navantis").

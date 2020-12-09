@@ -1,6 +1,7 @@
 ---
 title: "Fun With Announcements - Part 3"
 date: "2009-03-05"
+author: laurar
 ---
 
 Here is today's article of mine, as part of my "Fun with announcements" series.  Todays is called "Modify the default 'Current View' of the announcements Web Parts"

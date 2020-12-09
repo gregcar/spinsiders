@@ -1,6 +1,7 @@
 ---
 title: "Can you read that at the back of the room?"
 date: "2011-06-18"
+author: ruveng
 ---
 
 **_How a couple of books have radically changed my PowerPoint presentations._**

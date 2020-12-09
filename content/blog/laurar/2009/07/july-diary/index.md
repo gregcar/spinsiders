@@ -1,6 +1,7 @@
 ---
 title: "July Diary"
 date: "2009-07-26"
+author: laurar
 ---
 
 Dear Diary...

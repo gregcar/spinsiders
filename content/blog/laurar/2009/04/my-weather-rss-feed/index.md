@@ -1,6 +1,7 @@
 ---
 title: "My Weather RSS Feed"
 date: "2009-04-07"
+author: laurar
 ---
 
 Do you want logged in users to see a RSS feed of their own weather?  If you have MOSS Enterprise, this can be done using the Current User Filter web part and the RSS Viewer web part! 

@@ -1,6 +1,7 @@
 ---
 title: "What's this blog going to be about?"
 date: "2008-09-21"
+author: ruveng
 ---
 
 Welcome to my first post.

@@ -1,6 +1,7 @@
 ---
 title: "This is going to be fun..."
 date: "2009-01-20"
+author: ruveng
 ---
 
 There's a new blog in town and if I tell you it's called [The SharePoint Mad Scientist](http://www.sharepointmadscientist.com), then I've told you just about all you need to know. If I tell you that it's written by Mike Watson, that'll fill in the rest of the picture.

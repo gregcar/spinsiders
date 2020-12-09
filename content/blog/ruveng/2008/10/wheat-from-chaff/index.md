@@ -1,6 +1,7 @@
 ---
 title: "Wheat from Chaff"
 date: "2008-10-19"
+author: ruveng
 ---
 
 When you search the net for SharePoint answers, how do you know if what you find is a good answer or not? Sometimes a post that’s been around a long time comes back much earlier in the results, even if newer and better approaches have been documented or discovered.

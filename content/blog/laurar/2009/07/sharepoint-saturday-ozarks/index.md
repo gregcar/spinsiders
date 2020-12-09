@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Saturday - Ozarks"
 date: "2009-07-17"
+author: laurar
 ---
 
 Wow, tomorrow is [SharePoint Saturday in the Ozarks](http://www.sharepointsaturday.org/ozarks) (Harrison, Arkansas), and we're ready!

@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Technical Conference (SP Tech Con)"
 date: "2009-03-19"
+author: laurar
 ---
 
 > Twitter users, you can [Re-Tweet This Post](http://twitthis.com/twit?url=http://spinsiders.com/laurar/2009/03/19/sharepoint-technical-conference-sp-tech-con/ "Re-tweet").

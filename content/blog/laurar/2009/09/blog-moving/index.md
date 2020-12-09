@@ -1,6 +1,7 @@
 ---
 title: "Blog Moving"
 date: "2009-09-17"
+author: laurar
 ---
 
 This is still in progress, but my blog is / will be moving to a new location.

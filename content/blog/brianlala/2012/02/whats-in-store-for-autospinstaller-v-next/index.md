@@ -1,6 +1,7 @@
 ---
 title: "What’s In Store For AutoSPInstaller v.Next"
 date: "2012-02-14"
+author: brianlala
 ---
 
 Well it’s been a little while since the last [AutoSPInstaller release](http://autospinstaller.codeplex.com/releases/view/38568?ProjectName=autospinstaller) (and the last blog post, to be honest) but let me assure you it’s been all work and (slightly less) play! The last few months have seen a pretty intense development crunch for the automated SharePoint 2010 install/config script, and I just can’t seem to figure out when to call it quits and stop scope-creeping myself. Anyhow I think it’s time I came up for air to let everyone know what I’ve been up to.

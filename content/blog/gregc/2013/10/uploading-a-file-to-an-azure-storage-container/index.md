@@ -1,6 +1,7 @@
 ---
 title: "Uploading a File to an Azure Storage Container"
 date: "2013-10-06"
+author: gregc
 ---
 
 Here's the scenario: You have a file or blob of sorts that needs to be stored in an Azure Storage Container. That's great - how do you get it to the container?? I have done this a few times and PowerShell is definitely my preferred method but I can never remember the steps. So, for my benefit and maybe others, here they are:

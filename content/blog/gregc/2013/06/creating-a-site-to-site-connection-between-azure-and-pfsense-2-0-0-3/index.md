@@ -1,6 +1,7 @@
 ---
 title: "Creating a Site-to-Site Connection between Azure and pfSense 2.0.0.3"
 date: "2013-06-08"
+author: gregc
 ---
 
 This was a big of a tricky endeavour and obviously a topic that I I don't typically cover on this blog.  The whole reason for the post actually directly relates back to my [Moving to Office 365](/gregc/2013/03/06/moving-to-office-365/) post as I haven't get succeeded in moving enough of my operations to the cloud such that I am not dependent on my main internet connection any more.

@@ -1,6 +1,7 @@
 ---
 title: "Fix for the Custom Form Attachments Issue"
 date: "2009-02-18"
+author: laurar
 ---
 
 In my first blog post called [Displaying SharePoint Fields by Permission level](http://spinsiders.com/laurar/2009/01/23/displaying-sharepoint-fields-by-permission-level/), I made a side note that said

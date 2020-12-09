@@ -1,6 +1,7 @@
 ---
 title: "Using AutoSPInstaller to Run Specific Configuration Changes"
 date: "2014-04-30"
+author: brianlala
 ---
 
 _\-UPDATED May 2019-_

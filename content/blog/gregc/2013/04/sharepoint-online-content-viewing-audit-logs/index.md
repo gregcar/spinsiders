@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Online - Content Viewing Audit Logs"
 date: "2013-04-22"
+author: gregc
 ---
 
 Little important thing to note when evaluating SharePoint Online "Wave 15": SharePoint Online does not have the components to enable View audit log reports.
