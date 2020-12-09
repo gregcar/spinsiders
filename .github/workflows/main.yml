@@ -3,7 +3,7 @@ name: Build and deploy Gatsby site to Azure Blob Storage
 on:
   push:
     branches:
-      - master #on push to the master branch do the jobs below
+      - main #on push to the master branch do the jobs below
 
 jobs:
   build-and-deploy:
