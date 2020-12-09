@@ -1,0 +1,29 @@
+name: Build and deploy Gatsby site to Azure Blob Storage
+
+on:
+  push:
+    branches:
+      - master #on push to the master branch do the jobs below
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: npm install and build
+        run: |
+          npm install
+          npm run build
+      - name: Upload To Azure Blob Storage
+        uses: bacongobbler/azure-blob-storage-upload@v1.0.0
+        with:
+          source_dir: public #gatsby build generates this file after build
+          container_name: $web
+          connection_string: ${{ secrets.BLOB_STORAGE_CONNECTION_STRING }}
