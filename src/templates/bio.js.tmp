@@ -1,0 +1,35 @@
+          <div className="bio">
+            <Img fixed={profilepicture.childImageSharp.fixed}
+                alt={fullName}
+                className="bio-avatar"
+                imgStyle={{
+                  borderRadius: `50%`,
+                }}
+              />
+            <p>
+              Written by <strong>{fullName}</strong>
+              <br />
+              <br />
+              {hastToHyperscript(React.createElement, bio) || null}
+              <br /><br/>
+              <a href={twitter} target="_blank" rel="noreferrer">
+                You should follow {firstName || 'them'} on Twitter
+              </a>
+            </p>
+          </div>
+
+author {
+          id,
+          fullName,
+          firstName,
+          siteTitle,
+          bio,
+          twitter,
+          profilepicture {
+            childImageSharp {
+              fixed(width: 50, height: 50, quality: 95) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }

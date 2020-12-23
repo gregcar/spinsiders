@@ -6,41 +6,37 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import PropTypes from "prop-types"
+import { graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50, quality: 95) {
-            ...GatsbyImageSharpFixed
-          }
+const Bio = ({ authorId }) => {
+    const data = graphql`
+    query BioQuery{
+        markdownRemark(frontmatter: { bioId: { eq: "gregc" } }) {
+            html
+            frontmatter {
+                fullName
+                bioId
+                firstName
+                title
+                siteTitle
+                twitter
+                profilepicture {
+                  id
+                }
+            }
         }
       }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-          social {
-            twitter
-          }
-        }
-      }
-    }
-  `)
+`
+  const author = Bio?.data?.markdownRemark?.frontmatter
 
-  // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
-
-  const avatar = data?.avatar?.childImageSharp?.fixed
+  const avatar = author?.profilepicture
 
   return (
-    <div className="bio">
+      <div className="bio">
+          <p>Source value: { authorId }</p>
+          <p>Author value: { author?.title }</p>
       {avatar && (
         <Image
           fixed={avatar}
@@ -51,17 +47,21 @@ const Bio = () => {
           }}
         />
       )}
-      {author?.name && (
+      {author?.fullName && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Written by <strong>{author.fullName}</strong> {author?.siteTitle || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
+          <a href={`https://twitter.com/${author?.twitter || ``}`}>
             You should follow them on Twitter
           </a>
         </p>
-      )}
+          )}
+          <span>This is where the bio should go.</span>
     </div>
   )
 }
 
+Bio.propTypes = {
+  authorId: PropTypes.string.isRequired,
+}
 export default Bio

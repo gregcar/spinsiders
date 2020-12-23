@@ -1,14 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `SPInsiders`,
-    author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
     description: `Keeping the legacy of a groupof former and current SharePoint experts alive!`,
     siteUrl: `https://spinsiders.com/`,
-    social: {
-    },
+    siteTitle: `SPInsiders`
   },
   plugins: [
     {
@@ -23,6 +18,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/bios`,
+        name: `bios`,
       },
     },
     {
@@ -60,7 +62,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `SPInsiders`,
-        short_name: `GatsbyJS`,
+        short_name: `SPInsiders`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -72,21 +74,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
-    
-    // https://nosleepjavascript.com/gatsby-multi-author/ 
-    // 1. use src/data as a data source
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/data`,
-        name: `data`,
-      },
-    },
-    // 2. enable yaml support
-    `gatsby-transformer-yaml`,
   ],
-  mapping: {
-    // 3. map author to author.yaml
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`,
-  },
 }
