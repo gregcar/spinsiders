@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+  const { previous, next, bio } = data
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -32,7 +32,11 @@ const BlogPostTemplate = ({ data, location }) => {
         <hr />
         <footer>
           <Bio
-            authorId={data.markdownRemark.frontmatter.author}
+            firstName={bio.frontmatter.firstName}
+            fullName={bio.frontmatter.fullName}
+            bioText={bio.html}
+            pictureUrl={bio.frontmatter.profilepicture?.childImageSharp.fixed}
+            twitter={bio.frontmatter.twitter}
           />
         </footer>
       </article>
@@ -73,6 +77,7 @@ export const pageQuery = graphql`
     $id: String!
     $previousPostId: String
     $nextPostId: String
+    $authorId: String
   ) {
     site {
       siteMetadata {
@@ -106,5 +111,22 @@ export const pageQuery = graphql`
         title
       }
     }
+    bio : markdownRemark(frontmatter: { authorId: { eq: $authorId } }) {
+            html
+            frontmatter {
+                fullName
+                firstName
+                title
+                siteTitle
+                twitter
+                profilepicture {
+                  childImageSharp {
+                      fixed(width: 50, height: 50, quality: 95) {
+                          ...GatsbyImageSharpFixed
+                          }
+                      }
+                  }
+            }
+        }
   }
 `

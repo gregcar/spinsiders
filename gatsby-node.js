@@ -20,6 +20,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
+            frontmatter {
+              author
+            }
           }
         }
       }
@@ -52,6 +55,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id: post.id,
           previousPostId,
           nextPostId,
+          authorId: post.frontmatter.author
         },
       })
     })

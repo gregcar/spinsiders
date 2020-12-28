@@ -1,12 +1,12 @@
 ---
-bioId: brianlala
+authorId: brianlala
 fullName: Brian Lalancette
 firstName: Brian
 path: /brianlala
 profilepicture: ../../content/assets/cropped-Brian-Headshot.jpg
 siteTitle: About Lala Land
 description:
-twitter: https://twitter.com/brianlala
+twitter: brianlala
 ---
 
 Hey fellow Sharepointers/Powershellers/infrastru… ah never mind. My name is Brian Lalancette, and I’m a Premier Field Engineer (PFE) at Microsoft Canada.
