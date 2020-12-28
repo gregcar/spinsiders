@@ -22,17 +22,14 @@ const Bio = ({ fullName, firstName, pictureUrl, bioText, twitter }) => {
        <p>
         Written by <strong>{fullName}</strong>
         </p>
+        <p>
+          <section dangerouslySetInnerHTML={{ __html: bioText }} />
+      </p>
       <p>
-          <a href={`https://twitter.com/${twitter || ``}`}>
-            You should follow {firstName} on Twitter
-          </a>
-        </p>
-      <p>
-          <section
-            dangerouslySetInnerHTML={{ __html: bioText }}
-          />
-        </p>
-          <span>This is where the bio should go.</span>
+        <a href={`https://twitter.com/${twitter || ``}`}>
+          You should follow {firstName} on Twitter
+        </a>
+      </p>
     </div>
   )
 }
