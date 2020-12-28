@@ -1,5 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import syle from "./layout.module.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -21,12 +24,18 @@ const Layout = ({ location, title, children }) => {
   }
 
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        SPInsiders © {new Date().getFullYear()}
-      </footer>
+    <div data-is-root-path={isRootPath}>
+      <Container>
+        <header>{header}</header>
+      </Container>     
+      <Container>
+        <main>{children}</main>
+      </Container>    
+      <Container>
+        <footer>
+          SPInsiders © {new Date().getFullYear()}
+        </footer>
+      </Container>    
     </div>
   )
 }

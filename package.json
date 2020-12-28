@@ -8,6 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-feed": "^2.7.0",
@@ -28,6 +29,7 @@
     "hast-to-hyperscript": "^9.0.1",
     "prismjs": "^1.22.0",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "typeface-merriweather": "0.0.72",
