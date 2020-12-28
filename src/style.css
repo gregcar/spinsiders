@@ -318,6 +318,10 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.alert {
+  color: red;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
