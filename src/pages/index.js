@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+const RootIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title
     return (<Layout location={location} title={siteTitle}>
       <SEO title={siteTitle} />
@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default RootIndex
 
 export const pageQuery = graphql`
   query {
