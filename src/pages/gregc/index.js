@@ -32,7 +32,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {author: {eq: "gregc"}}}) {
       nodes {
-        excerpt
+        excerpt(pruneLength: 320)
         fields {
           slug
         }
