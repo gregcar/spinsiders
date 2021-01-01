@@ -4,6 +4,7 @@ fullName: Ruven Gotz
 firstName: Ruven
 path: /ruveng
 profilepicture: ../../content/assets/Ruven-2014-Branson.png
+bannerimage: ../../content/assets/path.jpg
 siteTitle: The Practical SharePoint Information Architect
 description: Filling in the business side of the puzzle
 twitter: ruveng

@@ -4,7 +4,7 @@ import syle from "./layout.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, subsitepath, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -17,25 +17,30 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
+      <h1 className="main-heading">
+        <Link to={subsitepath}>{title}</Link>
+      </h1>
     )
   }
 
   return (
     <div data-is-root-path={isRootPath}>
       <Container>
-        <header>{header}</header>
-      </Container>     
-      <Container>
-        <main>{children}</main>
-      </Container>    
-      <Container>
-        <footer>
-          SPInsiders © {new Date().getFullYear()}
-        </footer>
-      </Container>    
+        <Container>
+          <header>{header}</header>
+          <div>
+            <span>Location is {location.pathname}</span>
+          </div>
+        </Container>     
+        <Container>
+          <main>{children}</main>
+        </Container>    
+        <Container>
+          <footer>
+            SPInsiders © {new Date().getFullYear()}
+          </footer>
+        </Container>  
+      </Container>  
     </div>
   )
 }

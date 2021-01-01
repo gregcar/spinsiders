@@ -19,9 +19,6 @@ const Bio = ({ fullName, firstName, pictureUrl, bioText, twitter }) => {
                 borderRadius: `50%`,
               }}
             />
-       <p>
-        Written by <strong>{fullName}</strong>
-        </p>
         <p>
           <section dangerouslySetInnerHTML={{ __html: bioText }} />
       </p>

@@ -10,7 +10,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next, bio } = data
 
   return (
-    <Layout location={location} title={bio.siteTitle}>
+    <Layout location={location} subsitepath={bio.frontmatter.path} title={bio.siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -30,6 +30,9 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
+          <p>
+            Written by <strong>{bio.frontmatter.fullName}</strong>
+          </p>
           <Bio
             firstName={bio.frontmatter.firstName}
             fullName={bio.frontmatter.fullName}
@@ -118,6 +121,7 @@ export const pageQuery = graphql`
                 title
                 siteTitle
                 twitter
+                path
                 profilepicture {
                   childImageSharp {
                       fixed(width: 50, height: 50, quality: 95) {

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import syle from "./authorindex.module.css"
 
 const AuthorIndex = ({ posts }) => {
     if (posts.length === 0) {
