@@ -4,6 +4,7 @@ fullName: Greg Carnie
 firstName: Greg
 path: /gregc
 profilepicture:
+bannerimage: ../../content/assets/clouds.png
 siteTitle: Head in the Clouds
 description: …covering cloud technologies such as Office 365, Azure, Amazon and, of course, SharePoint
 twitter: gregcarnie

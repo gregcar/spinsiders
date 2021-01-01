@@ -33,8 +33,8 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
         </Row>
         <Row>
           <Col>
-            <Image fluid={bannerImage} alt="" />  
-          </Col>   
+            <Image fluid={bannerImage} alt="" /> 
+          </Col> 
         </Row>
         <Row>
           <Col>

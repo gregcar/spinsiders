@@ -4,8 +4,8 @@ fullName: Brian Lalancette
 firstName: Brian
 path: /brianlala
 profilepicture: ../../content/assets/cropped-Brian-Headshot.jpg
-siteTitle: About Lala Land
-description:
+siteTitle: Lala Land
+description: The not-nearly-updated-often-enough blog of Brian Lalancette
 twitter: brianlala
 ---
 
