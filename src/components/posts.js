@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import syle from "./authorindex.module.css"
+import "./posts.module.css"
 
-const AuthorIndex = ({ posts }) => {
+const Posts = ({ posts }) => {
     if (posts.length === 0) {
         return (
             <p>
@@ -13,7 +13,7 @@ const AuthorIndex = ({ posts }) => {
         )
     }
     return (
-        <ol style={{ listStyle: `none` }}>
+        <ol>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
@@ -48,4 +48,4 @@ const AuthorIndex = ({ posts }) => {
     )
 }
 
-export default AuthorIndex
+export default Posts

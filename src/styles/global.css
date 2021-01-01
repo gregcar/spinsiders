@@ -1,0 +1,20 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+h8 {
+  font-style: italic;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}

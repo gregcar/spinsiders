@@ -3,16 +3,19 @@ import { graphql } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import AuthorIndex from "../../components/authorindex"
+import Posts from "../../components/posts"
 
 const RuvenGIndex = ({ data, location }) => {
   const siteTitle = data.bio.frontmatter.siteTitle
+  const seoTitle = data.bio.frontmatter.siteTitle + " - All Posts"
+  const siteDescription = data.bio.frontmatter.description
+  const bannerImage = data.bio.frontmatter.bannerimage?.childImageSharp.fluid
   const posts = data.allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} subsitepath={data.bio.frontmatter.path} title={siteTitle}>
-      <SEO title="All posts" />
-      <AuthorIndex posts={posts} />
+    <Layout location={location} subsitepath={data.bio.frontmatter.path} siteDescription={siteDescription} bannerImage={bannerImage} title={siteTitle}>
+      <SEO title={seoTitle} />
+      <Posts posts={posts} />
     </Layout>
   )
 }
@@ -45,6 +48,14 @@ export const pageQuery = graphql`
                 fullName
                 title
                 siteTitle
+                description
+                bannerimage {
+                  childImageSharp {
+                    fluid(maxWidth: 940, maxHeight: 198) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }           
                 path
                 twitter
             }

@@ -1,36 +1,63 @@
 import React from "react"
 import { Link } from "gatsby"
-import syle from "./layout.module.css"
+import Image from "gatsby-image"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
+import { Container, Navbar, Nav, Row, Col } from 'react-bootstrap';
 
-const Layout = ({ location, subsitepath, title, children }) => {
+const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
+  const aboutPath = subsitepath + "/about"
   let header
 
   if (isRootPath) {
     header = (
-      <h1 className="main-heading">
+      <h2 className="main-heading">
         <Link to="/">{title}</Link>
-      </h1>
+      </h2>
     )
   } else {
     header = (
-      <h1 className="main-heading">
-        <Link to={subsitepath}>{title}</Link>
-      </h1>
+      <div>
+        <Row className="d-flex align-items-center">
+          <Col lg={8}>
+            <h2 className="main-heading">
+              <Link to={subsitepath}>{title}</Link>
+            </h2>
+          </Col>
+          <Col className="text-lg-right text-md-right">
+            <h8>
+              {siteDescription}
+            </h8>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Image fluid={bannerImage} alt="" />  
+          </Col>   
+        </Row>
+        <Row>
+          <Col>
+            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link href={subsitepath}>Home</Nav.Link>
+                  <Nav.Link href={aboutPath}>About</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+          </Col>
+        </Row>
+      </div>
     )
   }
 
   return (
     <div data-is-root-path={isRootPath}>
-      <Container>
+      <Container fluid>
         <Container>
           <header>{header}</header>
-          <div>
-            <span>Location is {location.pathname}</span>
-          </div>
         </Container>     
         <Container>
           <main>{children}</main>

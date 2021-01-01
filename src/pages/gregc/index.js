@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import AuthorIndex from "../../components/authorindex"
+import Posts from "../../components/posts"
 
 const GregCIndex = ({ data, location }) => {
   const siteTitle = data.bio.frontmatter.siteTitle
@@ -12,7 +12,7 @@ const GregCIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <AuthorIndex posts={posts} />
+      <Posts posts={posts} />
     </Layout>
   )
 }
