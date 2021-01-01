@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Posts from "../../components/posts"
 
-const RuvenGIndex = ({ data, location }) => {
+const Index = ({ data, location }) => {
   const siteTitle = data.bio.frontmatter.siteTitle
   const seoTitle = data.bio.frontmatter.siteTitle + " - All Posts"
   const fullName = data.bio.frontmatter.fullName
@@ -21,7 +21,7 @@ const RuvenGIndex = ({ data, location }) => {
   )
 }
 
-export default RuvenGIndex
+export default Index
 
 export const pageQuery = graphql`
   query {
@@ -30,7 +30,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {author: {eq: "ruveng"}}}) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {author: {eq: "laurar"}}}) {
       nodes {
         excerpt
         fields {
@@ -43,7 +43,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    bio : markdownRemark(frontmatter: { authorId: { eq: "ruveng" } }) {
+    bio : markdownRemark(frontmatter: { authorId: { eq: "laurar" } }) {
             html
             frontmatter {
                 fullName

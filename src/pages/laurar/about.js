@@ -27,7 +27,7 @@ export default About
 
 export const pageQuery = graphql`
   query {
-    bio : markdownRemark(frontmatter: { authorId: { eq: "ruveng" } }) {
+    bio : markdownRemark(frontmatter: { authorId: { eq: "laurar" } }) {
         html
         frontmatter {
             fullName

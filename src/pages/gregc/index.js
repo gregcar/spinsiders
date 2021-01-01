@@ -5,19 +5,23 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Posts from "../../components/posts"
 
-const GregCIndex = ({ data, location }) => {
+const Index = ({ data, location }) => {
   const siteTitle = data.bio.frontmatter.siteTitle
-    const posts = data.allMarkdownRemark.nodes
+  const seoTitle = data.bio.frontmatter.siteTitle + " - All Posts"
+  const fullName = data.bio.frontmatter.fullName
+  const siteDescription = data.bio.frontmatter.description
+  const bannerImage = data.bio.frontmatter.bannerimage?.childImageSharp.fluid
+  const posts = data.allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Posts posts={posts} />
+    <Layout location={location} subsitepath={data.bio.frontmatter.path} siteDescription={siteDescription} bannerImage={bannerImage} title={siteTitle}>
+      <SEO title={seoTitle} />
+      <Posts posts={posts} authorName={fullName} />
     </Layout>
   )
 }
 
-export default GregCIndex
+export default Index
 
 export const pageQuery = graphql`
   query {
@@ -45,6 +49,15 @@ export const pageQuery = graphql`
                 fullName
                 title
                 siteTitle
+                description
+                bannerimage {
+                  childImageSharp {
+                    fluid(maxWidth: 940, maxHeight: 198) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }           
+                path
                 twitter
             }
         }

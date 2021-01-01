@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import "./posts.module.css"
 
-const Posts = ({ posts }) => {
+const Posts = ({ posts, authorName }) => {
     if (posts.length === 0) {
         return (
             <p>
@@ -30,7 +30,7 @@ const Posts = ({ posts }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>{post.frontmatter.date} by {authorName}</small>
                 </header>
                 <section>
                   <p
