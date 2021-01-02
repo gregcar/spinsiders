@@ -12,7 +12,7 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
 
   if (isRootPath) {
     header = (
-      <h2 className="main-heading">
+      <h2 className="main-heading bg-primary">
         <Link to="/">{title}</Link>
       </h2>
     )
@@ -21,7 +21,7 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
       <div>
         <Row className="d-flex align-items-center">
           <Col lg={8}>
-            <h2 className="main-heading">
+            <h2>
               <Link to={subsitepath}>{title}</Link>
             </h2>
           </Col>
@@ -64,7 +64,7 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
         </Container>    
         <Container>
           <footer>
-            SPInsiders © {new Date().getFullYear()}
+            <Link to="/">SPInsiders</Link> © {new Date().getFullYear()}
           </footer>
         </Container>  
       </Container>  

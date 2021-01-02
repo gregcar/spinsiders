@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `SPInsiders`,
+    title: `Welcome to SPInsiders`,
     description: `Keeping the legacy of a groupof former and current SharePoint experts alive!`,
     siteUrl: `https://spinsiders.com/`,
     siteTitle: `SPInsiders`

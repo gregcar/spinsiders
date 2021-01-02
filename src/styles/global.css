@@ -21,3 +21,15 @@ h8 {
 .gatsby-resp-image-figcaption {
   text-align: center;
 }
+
+.main-heading {
+  color: white;
+}
+
+.main-heading a,
+.main-heading a:active,
+.main-heading a:visited,
+.main-heading a:hover,
+.main-heading a:link {
+  color: white;
+}
