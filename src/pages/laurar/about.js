@@ -8,9 +8,11 @@ import Bio from "../../components/bio"
 const About = ({ data, location }) => {
   const siteTitle = data.bio.frontmatter.siteTitle
   const bio = data.bio
+  const siteDescription = data.bio.frontmatter.description
+  const bannerImage = data.bio.frontmatter.bannerimage?.childImageSharp.fluid
 
   return (
-      <Layout location={location} subsitepath={bio.frontmatter.path} title={siteTitle}>
+      <Layout location={location} subsitepath={bio.frontmatter.path} siteDescription={siteDescription} bannerImage={bannerImage} title={siteTitle}>
       <SEO title="About" />
       <Bio
             firstName={bio.frontmatter.firstName}
@@ -34,15 +36,23 @@ export const pageQuery = graphql`
             firstName
             title
             siteTitle
+            description
             path
             twitter
             profilepicture {
-                childImageSharp {
-                    fixed(width: 50, height: 50, quality: 95) {
-                        ...GatsbyImageSharpFixed
-                        }
-                    }
+              childImageSharp {
+                  fixed(width: 50, height: 50, quality: 95) {
+                      ...GatsbyImageSharpFixed
+                      }
+                  }
+              }
+            bannerimage {
+              childImageSharp {
+                fluid(maxWidth: 940, maxHeight: 198) {
+                  ...GatsbyImageSharpFluid
                 }
+              }
+            } 
         }
     }
   }
