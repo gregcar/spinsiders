@@ -15,17 +15,17 @@ Fair enough, I thought. Guided by the error in the event log (which I should hav
 
 > **CN=Microsoft SharePoint Products,CN=System**
 
-\[caption id="attachment\_63" align="aligncenter" width="500" caption="Click to enlarge"\][![[click to enlarge]](images/containerdistinguishedname.png)](http://spinsiders.com/brianlala/files/2010/04/containerdistinguishedname.png)\[/caption\]Now, I began to get different errors on subsequent PSConfig attempts - along the lines of "General access denied". I correlated these to failure audit events on the domain controller, which indicated that, contrary to Jie's instructions, _Write_ permissions to the **Microsoft SharePoint Products** container wasn't enough; we needed something more...
+![[click to enlarge]](images/containerdistinguishedname.png)Now, I began to get different errors on subsequent PSConfig attempts - along the lines of "General access denied". I correlated these to failure audit events on the domain controller, which indicated that, contrary to Jie's instructions, _Write_ permissions to the **Microsoft SharePoint Products** container wasn't enough; we needed something more...
 
 Long story short, it appears that you don't even _need_ Write permission to the container; it's sufficient (but necessary) to have the "Create serviceConnectionPoint Objects" permissions (defined on the container object only):
 
-[![](images/createserviceconnectionpointobjects.png)](http://spinsiders.com/brianlala/files/2010/04/createserviceconnectionpointobjects.png)
+![](images/createserviceconnectionpointobjects.png)
 
-As you can see I've gone ahead and granted **Authenticated Users** the required privileges. Why? Because in order for this feature to be useful (and track as many SharePoint installs as possible), we need installations performed by _anyone_ with a domain account (not just super-users) to register themselves in AD. Further, the super-granular permissions "Create serviceConnectionPoint Objects" (instead of full Write, as initially thought) should mitigate any risk of granting such broad access.
+As you can see I've gone ahead and granted **Authenticated Users** the required privileges. Why? Because in order for this feature to be useful (and track as many SharePoint installs as possible), we need installations performed by *anyone* with a domain account (not just super-users) to register themselves in AD. Further, the super-granular permissions "Create serviceConnectionPoint Objects" (instead of full Write, as initially thought) should mitigate any risk of granting such broad access.
 
 Once I performed these few steps, I ran the SharePoint Products and Technologies Configuration Wizard, and when it finished I could see the new Service Connection Point in Active Directory:
 
-[![](images/serviceconnectionpoint.png)](http://spinsiders.com/brianlala/files/2010/04/serviceconnectionpoint.png)
+![](images/serviceconnectionpoint.png)
 
 And finally, back to the question about PSConfig being required for all this to work (as opposed to Powershell cmdlets): it appears that yes, only PSConfig does the trick. There's still something 'missing' in the series of Powershell cmdlets that serve to emulate the PSConfig-like activities. Not sure why but stay tuned.
 

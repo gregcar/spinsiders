@@ -4,7 +4,7 @@ date: "2009-02-01"
 author: laurar
 ---
 
-[![](images/bp_hor_banner_revise.jpg)](http://www.sharepointbestpractices.com)
+![](images/bp_hor_banner_revise.jpg "http://www.sharepointbestpractices.com")
 
 Looking forward to speaking at the SharePoint Best Practices Conference this week in San Diego!
 

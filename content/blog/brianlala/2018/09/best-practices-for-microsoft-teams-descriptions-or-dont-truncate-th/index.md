@@ -12,7 +12,7 @@ So I humbly propose a quick checklist for creating useful Microsoft Teams descri
 
 1. Actually populate the description (!)
 2. Put useful info in there. Remember, folks might be browsing through tens or hundreds of teams trying to find relevant chats and content. Don't make them guess!
-3. (And this is the big one) place that useful info at the _start_ of the team description. Like, right at the start. Why? Read on...
+3. (And this is the big one) place that useful info at the *start* of the team description. Like, right at the start. Why? Read on...
 
 You see, in the Teams search UI (at least at the time this post was written), the description gets truncated, and unlike the team name, it doesn't expand in a tooltip when you mouse over the description - rather the text changes to a "Join team" button.
 
@@ -24,24 +24,24 @@ Instead, folks would be much better served with a description that starts right 
 
 Bad description:
 
-[![](images/BadTeamsDescription.png)](http://spinsiders.com/brianlala/files/2018/09/BadTeamsDescription.png)
+![](images/BadTeamsDescription.png)
 
- 
 
- 
 
- 
 
- 
 
- 
 
- 
 
- 
 
- 
+
+
+
+
+
+
+
+
 
 Good description:
 
-[![](images/GoodTeamsDescription.png)](http://spinsiders.com/brianlala/files/2018/09/GoodTeamsDescription.png)
+![](images/GoodTeamsDescription.png)

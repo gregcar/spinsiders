@@ -17,3 +17,7 @@ h8 {
 .navbar {
   margin-bottom: 20px;
 }
+
+.gatsby-resp-image-figcaption {
+  text-align: center;
+}

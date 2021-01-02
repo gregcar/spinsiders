@@ -6,7 +6,7 @@ author: ruveng
 
 It's been a couple of weeks since the SharePoint Conference in Las Vegas wrapped up and I've had some time to recover from the #ShareFlu and think a bit about what I saw and heard.
 
-\[caption id="attachment\_108" align="alignleft" width="225" caption="Four-lane escalator highway"\][![Four-lane escallator highway](images/img_0677-1-225x300.jpg)](http://spinsiders.com/ruveng/files/2009/11/img_0677-1.jpg)\[/caption\]
+![Four-lane escallator highway](images/img_0677-1.jpg)
 
 Microsoft used SPC09 to take the wraps off of SharePoint 2010, the next version that will be released in the first half of next year. The embargo on information before the conference coupled with the incredible growth of SharePoint over the past couple of years made this a highly desirable ticket, and the show sold-out with over 7,000 attendees. It was great to see a lot of people that I've met at conferences where I have spoken before, and to meet a lot of my twitter friends in-person .
 
