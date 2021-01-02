@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Image from "gatsby-image"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Navbar, Nav, Row, Col } from 'react-bootstrap';
+import { Container, Navbar, Nav, Row, Col, Card } from 'react-bootstrap';
 
 const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -60,7 +60,24 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
           <header>{header}</header>
         </Container>     
         <Container>
-          <main>{children}</main>
+          <Row>
+            <Col lg={8}>
+              <main>{children}</main>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Title><Link to="/">SPInsiders</Link> Blogroll</Card.Title>
+                  <Card.Text>
+                    <Link to="/gregc">Head in the Clouds...</Link><br/>
+                    <Link to="/brianlala">Lala Land</Link><br/>
+                    <Link to="/laurar">Laura Rogers @WonderLaura</Link><br/>
+                    <Link to="/ruveng">The Practical Information Architect</Link>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </Container>    
         <Container>
           <footer>
