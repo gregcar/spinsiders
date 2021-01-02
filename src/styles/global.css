@@ -3,12 +3,11 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  text-decoration: none;
   color: black;
 }
 
-a:hover {
-  text-decoration: none !important;
+h2 a:hover {
+  text-decoration: none;
 }
 
 h8 {
