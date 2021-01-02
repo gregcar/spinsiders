@@ -1,13 +1,11 @@
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: black;
-}
-
-h2 a:hover {
+h2 a,
+h2 a:link,
+h2 a:hover,
+h3 a,
+h3 a:link,
+h3 a:hover {
   text-decoration: none;
+  color: black;
 }
 
 h8 {
@@ -32,4 +30,11 @@ h8 {
 .main-heading a:hover,
 .main-heading a:link {
   color: white;
+}
+
+a.footer-link,
+.blogroll a,
+.blogroll a:visited {
+  text-decoration: none;
+  color: black;
 }

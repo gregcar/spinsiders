@@ -65,9 +65,9 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
               <main>{children}</main>
             </Col>
             <Col>
-              <Card>
+              <Card className="blogroll">
                 <Card.Body>
-                  <Card.Title><Link to="/">SPInsiders</Link> Blogroll</Card.Title>
+                  <Card.Title><Link to="/">SPInsiders Blogroll</Link></Card.Title>
                   <Card.Text>
                     <Link to="/gregc">Head in the Clouds...</Link><br/>
                     <Link to="/brianlala">Lala Land</Link><br/>
@@ -81,7 +81,7 @@ const Layout = ({ location, subsitepath, title, siteDescription, bannerImage, ch
         </Container>    
         <Container>
           <footer>
-            <Link to="/">SPInsiders</Link> © {new Date().getFullYear()}
+            <Link to="/" className="footer-link">SPInsiders</Link> © {new Date().getFullYear()}
           </footer>
         </Container>  
       </Container>  
