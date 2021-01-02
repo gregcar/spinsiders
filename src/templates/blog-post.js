@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const { previous, next, bio } = data
+  const { bio } = data
   const siteTitle = data.bio.frontmatter.siteTitle
   const siteDescription = data.bio.frontmatter.description
   const bannerImage = data.bio.frontmatter.bannerimage?.childImageSharp.fluid
