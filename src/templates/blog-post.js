@@ -8,9 +8,12 @@ import SEO from "../components/seo"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const { previous, next, bio } = data
+  const siteTitle = data.bio.frontmatter.siteTitle
+  const siteDescription = data.bio.frontmatter.description
+  const bannerImage = data.bio.frontmatter.bannerimage?.childImageSharp.fluid
 
   return (
-    <Layout location={location} subsitepath={bio.frontmatter.path} title={bio.siteTitle}>
+    <Layout location={location} subsitepath={data.bio.frontmatter.path} siteDescription={siteDescription} bannerImage={bannerImage} title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -120,6 +123,7 @@ export const pageQuery = graphql`
                 firstName
                 title
                 siteTitle
+                description
                 twitter
                 path
                 profilepicture {
@@ -129,6 +133,13 @@ export const pageQuery = graphql`
                           }
                       }
                   }
+                bannerimage {
+                childImageSharp {
+                  fluid(maxWidth: 940, maxHeight: 198) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }   
             }
         }
   }
