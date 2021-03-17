@@ -4,7 +4,7 @@ date: "2008-12-16"
 author: ruveng
 ---
 
-![](images/bp_banner_180x150.jpg)I'm going to the Best Practices Conference in San Diego, and I went to the last one in Washington as well. It's true that I am a speaker, but I signed up to attend the last one before I knew I was going to speak. I just knew that I was going to learn a ton based on the speaker list, and I did. 
+I'm going to the Best Practices Conference in San Diego, and I went to the last one in Washington as well. It's true that I am a speaker, but I signed up to attend the last one before I knew I was going to speak. I just knew that I was going to learn a ton based on the speaker list, and I did.
 
 Times are pretty tough right now, but hopefully ROI still remains king. If you can justify the short-term cost with short, medium and long-term gains, you'll have a pretty good chance of getting management to see that it's worth the cost to send you. Here's something I overheard at the last one: "I went to the experts panel, and now I know what I need to do for the next six months: I'm set."
 
